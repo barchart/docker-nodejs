@@ -2,7 +2,7 @@
 # Base image for deploying node.js applications.
 #
 # docker-build properties:
-# TAG=barchart/nodejs
+# TAG=barchart/nodejs:latest
 
 FROM barchart/base
 MAINTAINER Jeremy Jongsma "jeremy@barchart.com"
