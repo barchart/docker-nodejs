@@ -13,4 +13,5 @@ RUN apt-get --yes update && \
 
 WORKDIR /app
 
-CMD ["npm", "start"]
+#CMD ["npm", "start"]
+CMD "npm start 2>&1 > /var/log/ext/nodejs.log"
